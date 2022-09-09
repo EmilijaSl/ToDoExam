@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ToDo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="C:\Users\Emilija\Desktop\Frontend\Front_Atsiskaitymas\cssStyles\styleSheet.css"
+      rel="styleSheet"
+    />
+  </head>
+  <body>
+    <div>
+      <h2 id="username"></h2>
+      <h2 id="email"></h2>
+    </div>
+
+    <form>
+      <input
+        type="button"
+        class="button"
+        value="Prideti"
+        id="add"
+        onclick="location.href = './prideti.html'"
+      /><br /><br />
+
+      <hr />
+      <input
+        type="button"
+        class="button"
+        in="home"
+        value="Pagrindinis puslapis"
+        onClick="location.href=`./pirmaspsl.html`"
+      />
+    </form>
+    <br />
+    <hr />
+    <h3>Jūsų darbų sąrašas:</h3>
+
+    <div
+      id="noteBox"
+      style="background-color: transparent; box-shadow: none"
+    ></div>
+    <script
+      type="text/javascript"
+      src="C:\Users\Emilija\Desktop\Frontend\Front_Atsiskaitymas\jspuslapiai\toDo.js"
+    ></script>
+  </body>
+</html>
